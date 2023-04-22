@@ -1,0 +1,11 @@
+.boton{
+    background-color: rgb(3, 98, 3) ;
+    color: white;
+    border: solid black;
+}
+
+.boton:hover{
+    background-color: rgb(3, 98, 3) ;
+    color: white;
+    border: solid black;
+}

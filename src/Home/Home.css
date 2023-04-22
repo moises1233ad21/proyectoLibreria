@@ -1,0 +1,26 @@
+.banner{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/tiendasisu-b70ee.appspot.com/o/gabriel-garcia-marquez-5-900x491.jpg?alt=media&token=36a8c5b8-84af-4fa6-9783-0eaf30946ca8");
+    background-position: top center;
+    background-size: cover;
+    padding: 22%;
+    position: relative;
+    z-index: 1;
+    color:white;
+    background-attachment:fixed;
+}
+
+.banner::after{
+    content:'';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    top:0;
+    left:0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.letrau {
+    font-size: 80px;
+}

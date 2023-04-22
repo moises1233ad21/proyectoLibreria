@@ -1,0 +1,18 @@
+.sombra{
+    filter: grayscale(100%);
+}
+
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+}
+
+.precio{
+    color: rgb(3, 98, 3);
+    font-size: 25px;
+}
+
+
